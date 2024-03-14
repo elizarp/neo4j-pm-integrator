@@ -1,6 +1,6 @@
-# Azure DevOps to Neo4j API Integration
+# Neo4j Project Management Integration
 
-This project is a .NET Core 8 API designed to integrate Azure DevOps with a Neo4j database, facilitating the synchronization and manipulation of data between Azure DevOps projects and a Neo4j graph database.
+This project is a .NET Core 8 API designed to integrate Project Management (Azure DevOps) with a Neo4j database, facilitating the synchronization and manipulation of data between Azure DevOps projects and a Neo4j graph database.
 
 ## Getting Started
 
