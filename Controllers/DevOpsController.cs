@@ -2,9 +2,9 @@ using System.Globalization;
 using System.Net.Http.Headers;
 using System.Text.Json;
 using System.Text;
-using DeployDevOps.Models;
+using Neo4jPMIntegrator.Models;
 using Microsoft.AspNetCore.Mvc;
-namespace DeployDevOps.Controllers;
+namespace Neo4jPMIntegrator.Controllers;
 
 using System.Configuration;
 using System.IO;

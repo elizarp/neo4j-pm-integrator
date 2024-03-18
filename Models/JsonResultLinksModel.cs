@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace DeployDevOps.Models;
+namespace Neo4jPMIntegrator.Models;
 
 public class JsonResulLinksModel
 {

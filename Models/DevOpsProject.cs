@@ -1,4 +1,4 @@
-namespace DeployDevOps.Models;
+namespace Neo4jPMIntegrator.Models;
 
 public class DevOpsProject
 {

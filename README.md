@@ -37,11 +37,14 @@ Before running the application, update the appsettings.json or your environment 
 "Tenant": "your_tenant_id",
 "ClientId": "your_client_id",
 "ProjectId": "your_project_id",
-"OrganizationUrl": "https://dev.azure.com/your_organization/"
+"OrganizationUrl": "https://dev.azure.com/your_organization/",
+"AzureDevOps:PatKey": ""
 }
 ```
 
 Make sure to replace your_neo4j_host,your_neo4j_user,your_neo4j_password, your_tenant_id, your_client_id, your_project_id, and your_organization with your actual Neo4j and Azure DevOps information.
+
+For sensitive information link NEO4J_PASSWORD and PatKey, please use [UserSecrets](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-8.0&tabs=windows)
 
 ### Running the Application
 To start the application, run:
